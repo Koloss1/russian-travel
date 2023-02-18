@@ -6,3 +6,8 @@
   line-height: 28px;
   font-style: normal;
 }
+
+.header__lang-link:nth-of-type(1) {
+  margin-right: 18px;
+  border-bottom: 1px solid;
+}
