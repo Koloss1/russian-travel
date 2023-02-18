@@ -2,7 +2,7 @@
   src:
     url(./Inter-Bold.woff2) format('woff2'),
     url(./Inter-Bold.woff) format('woff');
-  font-family: 'Inter-bold';
+  font-family: 'Inter';
   font-weight: bold;
 }
 
@@ -10,14 +10,14 @@
   src:
     url(./Inter-Regular.woff2) format('woff2'),
     url(./Inter-Regular.woff) format('woff');
-  font-family: 'Inter-normal';
+  font-family: 'Inter';
   font-weight: normal;
 }
 
 @font-face {
   src:
-    url(./Inter-Light.woff2) format('woff2'),
-    url(./Inter-Light.woff) format('woff');
-  font-family: 'Inter-light';
-  font-weight: lighter;
+    url(./Inter-Black.woff2) format('woff2'),
+    url(./Inter-Black.woff) format('woff');
+  font-family: 'Inter';
+  font-weight: bolder;
 }
