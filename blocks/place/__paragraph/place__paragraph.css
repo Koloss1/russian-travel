@@ -1,0 +1,35 @@
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  font-family: 'Inter-light';
+  grid-area: paragraph;
+  margin: 48px 0 0 0;
+}
+
+.place__paragraph:nth-last-of-type(1) {
+  grid-area: text;
+  margin-top: 0;
+}
+
+#last-paragraph {
+  grid-area: paragraph;
+  margin-top: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 693px) {
+  .place__paragraph {
+    margin-top: 32px;
+  }
+
+  .place__paragraph:nth-last-of-type(1) {
+    margin-top: 25px;
+  }
+}
