@@ -5,11 +5,11 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   margin-top: 12px;
   transition: opacity 0.2s linear;
 }
 
 .place__link:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }

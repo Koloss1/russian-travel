@@ -6,6 +6,12 @@
 @media screen and (max-width: 693px) {
   .place__website {
     align-self: baseline;
-    margin-top: 32px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+  .place__website {
+    margin-left: 16px;
   }
 }
